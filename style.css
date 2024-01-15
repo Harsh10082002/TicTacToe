@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #dcdde1;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #e84118;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+#newGame {
+    padding: 10px 20px;
+    margin: 5px 0 15px 0;
+    font-size: 1em;
+    cursor: pointer;
+
+    font-size: 1.2em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.allBtnsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.eachBtn {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    background-color: #44bd32;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.eachBtn:hover {
+    background-color: #ddd;
+}
+
+#newGame:hover {
+    background-color: #2980b9;
+}
+
+
+#displayTurn_win{
+    color: #4761ca;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.newGameBtn{
+    display: none;
+}
